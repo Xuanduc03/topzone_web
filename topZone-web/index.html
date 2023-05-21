@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <title>TopZone.vn cửa hàng Apple chính hãng</title>
+</head>
+
+<body>
+    <header class="container-header">
+        <div class="content">
+            <div class="logo">
+                <img src="./img/logo.jpg" alt="">
+            </div>
+            <ul class="header-menu">
+                <li><a href="#">iPhone</a></li>
+                <li><a href="#">Mac</a></li>
+                <li><a href="#">iPad</a></li>
+                <li><a href="#">Watch</a></li>
+                <li><a href="#">Âm thanh</a></li>
+                <li><a href="#">Phụ kiện</a></li>
+                <li><a href="#">TekZone</a></li>
+                <li><a href="#">TopCare</a></li>
+            </ul>
+            <div class="icon-header">
+                <a href="#" class="icon-search"><i class="fas fa-search"></i></a>
+                <a href="./cart.php"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+            <form action="" class="search">
+                <div class="content-input">
+                    <i class="fas fa-search"></i>
+                    <input type="text" name="input" placeholder="Tìm kiếm sản phẩm" id="inputFiled">
+                    <i class="fas fa-times"></i>
+                </div>
+            </form>
+        </div>
+    </header>
+
+    <!-- section slider show -->
+    <section class="main-content swiper mySwiper">
+        <div class="main-slider swiper-wrapper">
+            <img class="swiper-slide" src="./img/slide1.webp" alt="">
+            <img class="swiper-slide" src="./img/slide2.webp" alt="">
+            <img class="swiper-slide" src="./img/slide3.webp" alt="">
+            <img class="swiper-slide" src="./img/slide4.webp" alt="">
+            <img class="swiper-slide" src="./img/slide5.webp" alt="">
+            <img class="swiper-slide" src="./img/slide6.webp" alt="">
+            <img class="swiper-slide" src="./img/slide7.webp" alt="">
+        </div>
+
+
+        <div class="navigation-button">
+            <span class="dot active" onclick="changeSlide(0)"></span>
+            <span class="dot" onclick="changeSlide(1)"></span>
+            <span class="dot" onclick="changeSlide(2)"></span>
+            <span class="dot" onclick="changeSlide(3)"></span>
+            <span class="dot" onclick="changeSlide(4)"></span>
+            <span class="dot" onclick="changeSlide(5)"></span>
+            <span class="dot" onclick="changeSlide(6)"></span>
+        </div>
+    </section>
+
+    <section class="item-product">
+        <div class="main-item">
+            <div class="item">
+                <img src="./img/product1.webp" alt="">
+                <p>iPhone</p>
+            </div>
+            <div class="item">
+                <img src="./img/product2.webp" alt="">
+                <p>Mac</p>
+            </div>
+            <div class="item">
+                <img src="./img/product3.webp" alt="">
+                <p>iPad</p>
+            </div>
+            <div class="item">
+                <img src="./img/product4.webp" alt="">
+                <p>Watch</p>
+            </div>
+            <div class="item">
+                <img src="./img/product5.webp" alt="">
+                <p>Âm thanh</p>
+            </div>
+            <div class="item">
+                <img src="./img/product6.webp" alt="">
+                <p>Phụ kiện</p>
+            </div>
+        </div>
+
+        <!-- iphone porduct cart -->
+        <div class="product-item ">
+            <h2 class="name-product"><img src="./img/apple-logo-png-12908.png" alt=""> iPhone</h2>
+            <ul class="main-product">
+                <button type="button" class="previous">
+                    <span>
+                        <</span>
+                </button>
+                <li>
+                    <img src="./img/iphone-14-pro-max-black-thumbnew-650x650.png" alt="">
+                    <p>iPhone 14 Pro Max 128GB</p>
+                    <span><Strong>26.480.000₫</Strong>
+                        <strike>29.380.000₫</strike>
+                        <small>-9%</small>
+                    </span>
+                </li>
+                <li>
+                    <img src="./img/iphone-14-pro-max-black-thumbnew-650x650.png" alt="">
+                    <p>iPhone 14 Pro Max 256GB</p>
+                    <span>
+                        <strong>29.790.000₫</strong>
+                        <strike>32.990.000₫</strike>
+                        <small>-9%</small>
+                    </span>
+                </li>
+                <li>
+                    <img src="./img/iphone-14-pro-gold-thumb-1-650x650.png" alt="">
+                    <p>iPhone 14 Pro Max 128GB</p>
+                    <span>
+                        <strong>24.700.000₫</strong>
+                        <strike>27.909.000₫</strike>
+                        <small>-11%</small>
+                    </span>
+                </li>
+                <li>
+                    <img src="./img/iphone-14-red-thumb-1-650x650.png" alt="">
+                    <p>iPhone 14 128GB</p>
+                    <span>
+                        <strong>19.290.000₫</strong>
+                        <strike>21.890.000₫</strike>
+                        <small>-11%</small>
+                    </span>
+                </li>
+
+                <button type="button" class="next">
+                    <span>></span>
+                </button>
+            </ul>
+        </div>
+
+        <!-- macbook  -->
+        <div class="product-item macbook">
+            <h2 class="name-product"><img src="./img/apple-logo-png-12908.png" alt=""> Mac</h2>
+            <ul class="main-product  mac-product">
+                <button type="button" class="previous">
+                    <span>
+                        <</span>
+                </button>
+                <li>
+                    <img src="./img/macbook-air-m1-2020-spacegray-thumb-650x650.png" alt="">
+                    <p>MacBook Air M1 2020 8GB/256GB/7-Core GPU</p>
+                    <span><Strong>18.490.000₫</Strong>
+                        <strike>22.904.000₫</strike>
+                        <small>-19%</small>
+                    </span>
+                </li>
+                <li>
+                    <img src="./img/macbook-air-m2-2022-8-core-gpu-vang-650x650.png" alt="">
+                    <p>MacBook Air M2 2022 8GB/256GB/8-Core GPU</p>
+                    <span>
+                        <strong>28.790.000₫</strong>
+                        <strike>32.990.000₫</strike>
+                        <small>-14%</small>
+                    </span>
+                </li>
+                <li>
+                    <img src="./img/macbook-pro-16-m1-pro-2021-bac-650x650.png" alt="">
+                    <p>MacBook Pro 16 inch M1 pro 2021 16GB/521GB/16-Core GPU</p>
+                    <span>
+                        <strong>44.700.000₫</strong>
+                        <strike>58.909.000₫</strike>
+                        <small>-23%</small>
+                    </span>
+                </li>
+                <li>
+                    <img src="./img/imac-24inch-blue-650x650.png" alt="">
+                    <p>iMac 24 inch M1 2021 8-Core GPU/8GB/256GB</p>
+                    <span>
+                        <strong>27.990.000₫</strong>
+                        <strike>39.890.000₫</strike>
+                        <small>-30%</small>
+                    </span>
+                </li>
+
+                <button type="button" class="next">
+                    <span>></span>
+                </button>
+            </ul>
+        </div>
+
+        <!-- ipad html doc -->
+        <div class="product-item ipad">
+            <h2 class="name-product"><img src="./img/apple-logo-png-12908.png" alt=""> iPad</h2>
+            <ul class="main-product ipad-product">
+                <button type="button" class="previous">
+                    <span>
+                        <</span>
+                </button>
+                <li>
+                    <img src="./img/ipad-air-5-wifi-startlight-650x650.png" alt="">
+                    <p>iPad Air 5 WiFi 64GB </p>
+                    <span>
+                        <Strong>14.480.000₫</Strong>
+                        <strike>16.380.000₫</strike>
+                        <small>-9%</small>
+                    </span>
+                </li>
+                <li>
+                    <img src="./img/ipad-gen-9-silver-1-2-650x650.png" alt="">
+                    <p>iPad 9 WiFi 64GB</p>
+                    <span>
+                        <strong>7.790.000₫</strong>
+                        <strike>9.990.000₫</strike>
+                        <small>-20%</small>
+                    </span>
+                </li>
+                <li>
+                    <img src="./img/iPad-gen-10-sliver-thumb-650x650.png" alt="">
+                    <p>iPad 10 WiFi 64GB</p>
+                    <span>
+                        <strong>11.700.000₫</strong>
+                        <strike>12.909.000₫</strike>
+                        <small>-11%</small>
+                    </span>
+                </li>
+                <li>
+                    <img src="./img/iPad-Pro-M2-11-sliver-thumb-1-650x650.png" alt="">
+                    <p>iPad Pro M2 11 inch WiFi 128GB</p>
+                    <span>
+                        <strong>20.290.000₫</strong>
+                        <strike>23.890.000₫</strike>
+                        <small>-11%</small>
+                    </span>
+                </li>
+
+                <button type="button" class="next">
+                    <span>></span>
+                </button>
+            </ul>
+        </div>
+
+        <!-- apple watch html -->
+        <div class="product-item ">
+            <h2 class="name-product"><img src="./img/apple-logo-png-12908.png" alt=""> WATCH</h2>
+            <ul class="main-product">
+                <button type="button" class="previous">
+                    <span>
+                        <</span>
+                </button>
+                <li>
+                    <img src="./img/apple-watch-se-2022-gps-40mm-thumbtz-1-650x650.png" alt="">
+                    <p>Apple Watch SE 2022 GPS 40mm</p>
+                    <span><Strong>26.480.000₫</Strong>
+                        <strike>29.380.000₫</strike>
+                        <small>-9%</small>
+                    </span>
+                </li>
+                <li>
+                    <img src="./img/apple-watch-s8-41mm-den-xanh-thumbtz-650x650.png" alt="">
+                    <p>Apple Watch Series 8 GPS 41mm</p>
+                    <span>
+                        <strong>9.790.000₫</strong>
+                        <strike>11.990.000₫</strike>
+                        <small>-9%</small>
+                    </span>
+                </li>
+                <li>
+                    <img src="./img/apple-watch-s7-gps-41mm-vang-nhat-650x650.png" alt="">
+                    <p>Apple Watch Series 7 GPS 41mm</p>
+                    <span>
+                        <strong>9.700.000₫</strong>
+                        <strike>12.909.000₫</strike>
+                        <small>-11%</small>
+                    </span>
+                </li>
+                <li>
+                    <img src="./img/apple-watch-s8-ultra-cao-su-trang-thumbtz-650x650.png" alt="">
+                    <p>Apple Watch Ultra GPS + Celluar 49mm Ocean Band</p>
+                    <span>
+                        <strong>18.290.000₫</strong>
+                        <strike>23.890.000₫</strike>
+                        <small>-11%</small>
+                    </span>
+                </li>
+
+                <button type="button" class="next">
+                    <span>></span>
+                </button>
+            </ul>
+        </div>
+
+        <!-- airpod product cart -->
+        <div class="product-item airpod-item">
+            <h2 class="name-product">Âm Thanh</h2>
+            <ul class="main-product airpod-product">
+                <button type="button" class="previous">
+                    <span>
+                        <</span>
+                </button>
+                <li>
+                    <img src="./img/airpods-2-650x650.png" alt="">
+                    <p>AirPod 2 Hộp sạc thường</p>
+                    <span>
+                        <Strong>2.480.000₫</Strong>
+                        <strike>4.380.000₫</strike>
+                        <small>-9%</small>
+                    </span>
+                </li>
+                <li>
+                    <img src="./img/airpods-pro-2-thumb-650x650.png" alt="">
+                    <p>AirPod Pro (2nd Gen)</p>
+                    <span>
+                        <strong>5.790.000₫</strong>
+                        <strike>7.990.000₫</strike>
+                        <small>-9%</small>
+                    </span>
+                    <p class="price-sale">Online giá rẻ</p>
+                </li>
+                <li>
+                    <img src="./img/airpods-pro-2-thumb-650x650.png" alt="">
+                    <p>AirPod Pro Hộp sạc MagSafe</p>
+                    <span>
+                        <strong>4.700.000₫</strong>
+                        <strike>6.909.000₫</strike>
+                        <small>-11%</small>
+                    </span>
+                    <p class="price-sale">Online giá rẻ</p>
+                </li>
+                <li>
+                    <img src="./img/airpods-3-hop-sac-khong-day-thumb-650x650.png" alt="">
+                    <p>AirPod 3 sạc Lightning</p>
+                    <span>
+                        <strong>4.290.000₫</strong>
+                        <strike>6.890.000₫</strike>
+                        <small>-11%</small>
+                    </span>
+                    <p class="price-sale">Online giá rẻ</p>
+                </li>
+
+                <button type="button" class="next">
+                    <span>></span>
+                </button>
+            </ul>
+        </div>
+
+        <!-- phu kien product cart item -->
+        <div class="product-item airpod-item">
+            <h2 class="name-product">Phụ Kiện</h2>
+            <ul class="main-product airpod-product">
+                <button type="button" class="previous">
+                    <span><</span>
+                </button>
+                <li>
+                    <img src="./img/114.34.03-650x650.png" alt="">
+                    <p>Adapter sạc Apple USB-C 20W</p>
+                    <span>
+                        <Strong>580.000₫</Strong>
+                        <strike>780.000₫</strike>
+                        <small>-9%</small>
+                    </span>
+                </li>
+                <li>
+                    <img src="./img/op-lung-magsafe-iphone-14-pro-max-nhua-trong-apple-mpu73-thumb-650x650.png" alt="">
+                    <p>Ốp lưng MagSafe cho iPhone 14 Pro Max Nhựa trong Apple MPU73</p>
+                    <span>
+                        <strong>950.000₫</strong>
+                        <strike>1.690.000₫</strike>
+                        <small>-19%</small>
+                    </span>
+                    <p class="price-sale">Online giá rẻ</p>
+                </li>
+                <li>
+                    <img src="./img/cap-type-c-lightning-1m-apple-mm0a3-trang-650x650.png" alt="">
+                    <p>Cáp sạc USB-C Lightning 1m</p>
+                    <span>
+                        <strong>490.000₫</strong>
+                        <strike>809.000₫</strike>
+                        <small>-11%</small>
+                    </span>
+                    <p class="price-sale">Online giá rẻ</p>
+                </li>
+                <li>
+                    <img src="./img/magic-keyboard-thumb-650x650.png" alt="">
+                    <p>Magic Keyboard</p>
+                    <span>
+                        <strong>1.990.000₫</strong>
+                        <strike>2.890.000₫</strike>
+                        <small>-11%</small>
+                    </span>
+                    <p class="price-sale">Online giá rẻ</p>
+                </li>
+
+                <button type="button" class="next">
+                    <span>></span>
+                </button>
+            </ul>
+        </div>
+
+        <!-- teck zone -->
+        <div class="product-item tekzone-item">
+            <h2 class="name-product">TekZone</h2>
+            <ul class="main-product tekzone-product">
+                <button type="button" class="previous">
+                    <span><</span>
+                </button>
+                <li>
+                    <img src="./img/cach-viet-chu-mau-lien-quan-th-100523-205047-760x367.jpg" alt="">
+                    <p>Cách viết chữ màu trong Liên Quân, giúp bạn nổi bật và ấn tượng hơn trong game siêu đơn giản</p>
+                    
+                </li>
+                <li>
+                    <img src="./img/d-100523-113832-760x367.jpg" alt="">
+                    <p>Code Honkai: star Rall mới nhất tháng 5/2023, nhận nhiều quà giá trị như ngọc ánh Sao, điểm tín dụng...</p>
+                </li>
+                <li>
+                    <img src="./img/thumbs-100523-020322-760x367.jpg" alt="">
+                    <p>Cách xem đăng nhập trên Facebook, giúp biết được tài khoản đăng nhập ở đâu, thời gian và trên thiết bị nào...</p>
+                </li>
+
+                <button type="button" class="next">
+                    <span>></span>
+                </button>
+            </ul>
+        </div>
+
+    </section>
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script src="./js/main.js"></script>
+
+
+</body>
+
+</html>
